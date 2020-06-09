@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#755F5D">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_margin="10dp"
+        android:id="@+id/book_imageTv"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_book_black_24dp">
+
+    </de.hdodenhof.circleimageview.CircleImageView>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+
+            android:id="@+id/book_titleTv"
+            android:layout_width="match_parent"
+            android:fontFamily="@font/nizarfontotf"
+            android:layout_height="match_parent"
+            android:textColor="@android:color/white"
+            android:textSize="30dp"
+            android:gravity="center"
+            />
+
+        <TextView
+
+            android:id="@+id/book_authorsTv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@android:color/white"
+            android:fontFamily="@font/nizarfontotf"
+            android:textSize="20sp"
+            />
+
+
+        <TextView
+
+            android:id="@+id/book_publishedDateTv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@android:color/white"
+            android:fontFamily="@font/nizarfontotf"
+            android:textSize="20dp"
+            />
+        <TextView
+            android:id="@+id/book_descriptionTv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@android:color/white"
+            android:fontFamily="@font/nizarfontotf"
+            android:textSize="20dp"
+            />
+    </LinearLayout>
+</ScrollView>
+
+</LinearLayout>
